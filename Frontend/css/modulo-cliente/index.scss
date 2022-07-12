@@ -1,0 +1,215 @@
+//index
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1d29;
+    height: 100%;
+    font-family: 'Avenir LT Pro', sans-serif;
+}
+
+//smartphone
+#formulario {
+    form {
+        .form_text {
+            margin-top: 20px;
+            margin-left: 300px;
+
+            #submit {
+                border-radius: 5px;
+                background-color: black;
+                color: white;
+                border-color: white;
+            }
+        }
+    }
+}
+
+#bienvenida {
+    h1 {
+        color: white;
+        padding-left: 70px;
+
+    }
+
+    .logo {
+        padding-left: 160px;
+
+        a {
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+#contenido {
+    h2 {
+        padding-left: 20px;
+        color: white;
+    }
+
+    p {
+        padding-left: 20px;
+        color: white;
+    }
+
+    .fotos {
+        margin-left: 60px;
+        row-gap: 20px;
+        column-gap: 20px;
+
+        .foto {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+    }
+}
+
+#footer {
+    background-color: #090b13;
+
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        a {
+            padding-left: 200px;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+
+    .list {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+    }
+
+    .rights {
+        padding-left: 140px;
+        padding-bottom: 20px;
+        font-size: 8px;
+        color: white;
+    }
+}
+
+//tablet
+@media screen and (min-width: 768px) {
+    #formulario {
+        form {
+            .form_text {
+                margin-left: 680px;
+            }
+        }
+    }
+
+    #bienvenida {
+        h1 {
+            padding-left: 300px;
+        }
+
+        .logo {
+            padding-left: 400px;
+        }
+    }
+
+    #contenido {
+        h2 {
+            padding-left: 100px;
+        }
+
+        p {
+            padding-left: 100px;
+        }
+
+        .fotos {
+            padding-left: 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 210px;
+    }
+
+    .list {
+        margin-left: 170px;
+    }
+
+    .rights {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #formulario {
+        form {
+            .form_text {
+                margin-left: 1400px;
+            }
+        }
+    }
+
+    #bienvenida {
+        h1 {
+            padding-left: 650px;
+        }
+
+        .logo {
+            padding-left: 750px;
+        }
+    }
+
+    #contenido {
+        h2 {
+            padding-left: 130px;
+        }
+
+        p {
+            padding-left: 130px;
+        }
+
+        .fotos {
+            padding-left: 70px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 590px;
+    }
+
+    .list {
+        margin-left: 540px;
+    }
+
+    .rights {
+        margin-left: 570px;
+    }
+}

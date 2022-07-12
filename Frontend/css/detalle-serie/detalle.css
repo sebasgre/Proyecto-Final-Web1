@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1d29;
+  height: 100%;
+  font-family: "Avenir LT Pro", sans-serif;
+}
+
+#contenido .portada {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+#contenido .portada img {
+  width: 100%;
+  height: 100%;
+}
+#contenido .informacion .agregar button {
+  margin-left: 360px;
+  width: 40px;
+  height: 40px;
+  background-color: #1a1d29;
+  border-radius: 5px;
+  border: greenyellow solid 2px;
+  cursor: pointer;
+}
+#contenido .informacion .agregar button img {
+  width: 100%;
+  height: 100%;
+}
+#contenido .informacion .detalle h1 {
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+#contenido .informacion .detalle p {
+  margin-top: -20px;
+  padding: 20px;
+  color: white;
+}
+#contenido .informacion .temporada {
+  margin-top: -10px;
+}
+#contenido .informacion .temporada .temp {
+  color: white;
+  padding-left: 20px;
+}
+#contenido .informacion .temporada #temp_check {
+  display: none;
+}
+#contenido .informacion .temporada ol li {
+  color: white;
+}
+#contenido .informacion .temporada ol a {
+  color: white;
+  text-decoration: none;
+}
+#contenido .informacion .episodios {
+  margin-bottom: 20px;
+}
+#contenido .informacion .episodios ol li {
+  color: white;
+}
+#contenido .informacion .episodios ol li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #090b13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer div {
+  padding: 20px;
+  color: white;
+}
+#footer div a {
+  color: lightblue;
+  text-decoration: none;
+}
+#footer div:last-child {
+  margin-top: -20px;
+}
+
+@media screen and (min-width: 768px) {
+  #contenido .informacion .agregar button {
+    margin-left: 740px;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 992px) {
+  #contenido .informacion .agregar button {
+    margin-left: 1460px;
+  }
+}
+
+/*# sourceMappingURL=detalle.css.map */

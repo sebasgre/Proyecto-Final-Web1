@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1d29;
+  height: 100%;
+  font-family: "Avenir LT Pro", sans-serif;
+}
+
+.content-login {
+  height: 100vh;
+}
+.content-login .login {
+  width: 100%;
+}
+.content-login .login .logo {
+  padding-top: 50px;
+  padding-left: 160px;
+}
+.content-login .login .logo a img {
+  width: 100px;
+}
+.content-login .login .logo h1 {
+  margin: 0px;
+  padding-left: 20px;
+  color: white;
+}
+.content-login .login h2 {
+  padding: 30px;
+  color: white;
+}
+.content-login .login form {
+  padding: 30px;
+  margin-top: -50px;
+}
+.content-login .login form #usuario {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.content-login .login form #password {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.content-login .login form #submit {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #0072d2;
+}
+.content-login .login form #validarUser {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+.content-login .login form #validarPass {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+.content-login .login #unique {
+  margin-top: -15px;
+  padding-left: 30px;
+  color: white;
+}
+.content-login .login #unique a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #090b13;
+}
+#footer .logo_footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#footer .logo_footer a {
+  padding-left: 190px;
+}
+#footer .logo_footer a img {
+  width: 25px;
+  height: 25px;
+}
+#footer .list {
+  font-size: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+#footer .list a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+#footer .rights {
+  padding-left: 140px;
+  padding-bottom: 20px;
+  font-size: 8px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .login .logo {
+    padding-top: 150px;
+    margin-left: 210px;
+  }
+  .login .logo a img {
+    width: 150px;
+    height: 150px;
+  }
+  .login .logo h1 {
+    margin: 0px;
+    padding-left: 20px;
+    color: white;
+  }
+  .login h2 {
+    margin-left: 200px;
+  }
+  .login form {
+    margin-left: 200px;
+    width: auto;
+  }
+  .login form .form_text #usuario {
+    height: 40px;
+  }
+  .login form .form_text #password {
+    height: 40px;
+  }
+  .login form .form_text #submit {
+    height: 40px;
+  }
+  .login #unique {
+    margin-left: 200px;
+  }
+  .logo_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 210px;
+  }
+  .list {
+    margin-left: 170px;
+  }
+  .rights {
+    margin-left: 200px;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 992px) {
+  .login .logo {
+    padding-top: 150px;
+    margin-left: 570px;
+  }
+  .login .logo a img {
+    width: 150px;
+    height: 150px;
+  }
+  .login .logo h1 {
+    margin: 0px;
+    padding-left: 20px;
+    color: white;
+  }
+  .login h2 {
+    margin-left: 570px;
+  }
+  .login form {
+    margin-left: 570px;
+    width: auto;
+  }
+  .login form .form_text #usuario {
+    height: 45px;
+  }
+  .login form .form_text #password {
+    height: 45px;
+  }
+  .login form .form_text #submit {
+    height: 45px;
+  }
+  .login #unique {
+    margin-left: 570px;
+  }
+  .login #unique #registrar {
+    color: white;
+  }
+  .login #unique #registrar:hover {
+    color: lightblue;
+  }
+  .logo_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 590px;
+  }
+  .list {
+    margin-left: 540px;
+  }
+  .rights {
+    margin-left: 570px;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

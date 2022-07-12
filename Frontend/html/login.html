@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/autenticacion-cliente/login.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section class="content-login">
+        <div class="login">
+            <div class="logo">
+                <a href="#">
+                    <img src="../img/logo/logo.png" alt="logo.png">
+                </a>
+                <h1>Frivs</h1>
+            </div>
+            <h2>Ingresa con tu usuario</h2>
+            <form>
+                <div class="form_text">
+                    <input type="text" required placeholder="Usuario" id="usuario">
+                    <div id="validarUser">
+                        Usuario incorrecto
+                    </div>
+                </div>
+                <div class="form_text">
+                    <input type="password" required placeholder="Password" id="password">
+                    <div id="validarPass">
+                        Contraseña incorrecta</div>
+                </div>
+                <div class="form_text">
+                    <input type="submit" value="CONTINUAR" id="submit">
+                </div>
+            </form>
+            <div class="form_text" id="unique">
+                <span>Nuevo en frivs?</span>
+                <a href="./registro.html" id="registrar">
+                    Registrate
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="logo_footer">
+            <a href="#">
+                <img src="../img/logo/logo.png" alt="logo.png">
+            </a>
+        </div>
+        <div class="list">
+            <a href="#">
+                <span>Politicas de privacidad</span>
+            </a>
+            <a href="#">
+                <span>Acuerdo de suscripcion</span>
+            </a>
+            <a href="#">
+                <span>Ayuda</span>
+            </a>
+            <a href="#">
+                <span>Dispositivos disponibles</span>
+            </a>
+            <a href="#">
+                <span>Sobre nosotros</span>
+            </a>
+        </div>
+        <div class="rights">
+            © Frivs.Todos los derechos son reservados.
+        </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

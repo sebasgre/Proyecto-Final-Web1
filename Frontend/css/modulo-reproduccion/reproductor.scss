@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-color: #1a1d29;
+    font-family: 'Avenir LT Pro', sans-serif;
+}
+#reproductor{
+    padding: 40px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .detalle{
+        .descrip, .descripcion{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1d29;
+  height: 100%;
+  font-family: "Avenir LT Pro", sans-serif;
+}
+
+.cuenta {
+  height: 100vh;
+}
+.cuenta .crear {
+  width: 100%;
+}
+.cuenta .crear .logo {
+  padding-top: 50px;
+  padding-left: 160px;
+}
+.cuenta .crear .logo a img {
+  width: 100px;
+}
+.cuenta .crear .logo h1 {
+  margin: 0px;
+  padding-left: 20px;
+  color: white;
+}
+.cuenta .crear form {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.cuenta .crear #nombre {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.cuenta .crear #apellido {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.cuenta .crear #usuario {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.cuenta .crear #password {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  background-color: #31343e;
+  color: lightgray;
+  border: none;
+}
+.cuenta .crear #submit {
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #0072d2;
+}
+.cuenta .crear #validarNombre {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+.cuenta .crear #validarApellido {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+.cuenta .crear #validarUsuario {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+.cuenta .crear #validarPassword {
+  color: red;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 12px;
+  display: none;
+}
+
+#footer {
+  background-color: #090b13;
+}
+#footer .logo_footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#footer .logo_footer a {
+  padding-left: 190px;
+}
+#footer .logo_footer a img {
+  width: 25px;
+  height: 25px;
+}
+#footer .list {
+  font-size: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+#footer .list a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+}
+#footer .rights {
+  padding-left: 140px;
+  padding-bottom: 20px;
+  font-size: 8px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .cuenta .crear .logo {
+    margin-left: 200px;
+  }
+  .cuenta .crear form {
+    margin-left: 240px;
+    width: auto;
+  }
+  .cuenta .crear form .form_text #nombre {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #apellido {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #usuario {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #password {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #submit {
+    height: 40px;
+  }
+  .logo_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 210px;
+  }
+  .list {
+    margin-left: 170px;
+  }
+  .rights {
+    margin-left: 200px;
+  }
+}
+/*desktop*/
+@media screen and (min-width: 992px) {
+  .cuenta .crear .logo {
+    margin-left: 570px;
+  }
+  .cuenta .crear form {
+    margin-left: 570px;
+    width: auto;
+  }
+  .cuenta .crear form .form_text #nombre {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #apellido {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #usuario {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #password {
+    height: 40px;
+  }
+  .cuenta .crear form .form_text #submit {
+    height: 40px;
+  }
+  .logo_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 590px;
+  }
+  .list {
+    margin-left: 540px;
+  }
+  .rights {
+    margin-left: 570px;
+  }
+}
+
+/*# sourceMappingURL=registro.css.map */

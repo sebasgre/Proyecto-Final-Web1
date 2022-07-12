@@ -1,0 +1,113 @@
+#header {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: black;
+}
+#header .logo {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#header .logo a img {
+  width: 40px;
+  height: 40px;
+}
+#header .nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+#header .nav-links ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+#header .nav-links ul li a {
+  text-decoration: none;
+}
+#header .nav-links ul li a .icons svg {
+  fill: white;
+}
+#header .nav-links ul li a p {
+  display: none;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#container-general {
+  padding-top: 10px;
+}
+#container-general h3 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+#container-general .series {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+#container-general .series .card {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+#container-general .series .card a img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  h3 {
+    margin-left: 90px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h3 {
+    margin-left: 140px;
+  }
+}
+#footer {
+  background-color: #090b13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer div {
+  padding: 20px;
+  color: white;
+}
+#footer div a {
+  color: lightblue;
+  text-decoration: none;
+}
+#footer div:last-child {
+  margin-top: -20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Avenir LT Pro", sans-serif;
+  background: radial-gradient(#2c2f42, #161824);
+  height: 100vh;
+}
+
+/*# sourceMappingURL=plataforma.css.map */

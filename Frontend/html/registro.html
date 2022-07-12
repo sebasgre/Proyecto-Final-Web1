@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/registro-cliente/registro.css">
+    <title>Registro</title>
+</head>
+
+<body>
+    <section class="cuenta">
+        <div class="crear">
+            <div class="logo">
+                <a href="#">
+                    <img src="../img/logo/logo.png" alt="logo.png">
+                </a>
+                <h1>Frivs</h1>
+            </div>
+            <form action="../html/login.html">
+                <div class="form_text">
+                    <input type="text" required placeholder="Nombre" id="nombre">
+                </div>
+                <div id="validarNombre">
+                        El nombre es un campo requerido
+                    </div>
+                <div class="form_text">
+                    <input type="text" required placeholder="Apellido" id="apellido">
+                    <div id="validarApellido">
+                        El apellido es un campo requerido
+                    </div>
+                </div>
+                <div class="form_text">
+                    <input type="text" required placeholder="Usuario" id="usuario">
+                    <div id="validarUsuario">
+                        El usuario es un campo requerido
+                    </div>
+                </div>
+                <div class="form_text">
+                    <input type="password" required placeholder="Password" id="password">
+                    <div id="validarPassword">
+                        La contraseña es un campo requerido
+                    </div>
+                </div>
+                <div class="form_text">
+                    <input type="submit" value="CREAR CUENTA" id="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="logo_footer">
+            <a href="#">
+                <img src="../img/logo/logo.png" alt="logo.png">
+            </a>
+        </div>
+        <div class="list">
+            <a href="#">
+                <span>Politicas de privacidad</span>
+            </a>
+            <a href="#">
+                <span>Acuerdo de suscripcion</span>
+            </a>
+            <a href="#">
+                <span>Ayuda</span>
+            </a>
+            <a href="#">
+                <span>Dispositivos disponibles</span>
+            </a>
+            <a href="#">
+                <span>Sobre nosotros</span>
+            </a>
+        </div>
+        <div class="rights">
+            © Frivs.Todos los derechos son reservados.
+        </div>
+    </footer>
+    <script src="../js/registro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1d29;
+    height: 100%;
+    font-family: "Avenir LT Pro", sans-serif;
+}
+
+//smartphone
+.cuenta {
+    height: 100vh;
+
+    .crear {
+        width: 100%;
+
+        .logo {
+            padding-top: 50px;
+            padding-left: 160px;
+
+            a {
+                img {
+                    width: 100px;
+                }
+            }
+
+            h1 {
+                margin: 0px;
+                padding-left: 20px;
+                color: white;
+            }
+
+        }
+
+        form {
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+        #nombre {
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background-color: #31343e;
+            color: lightgray;
+            border: none;
+        }
+
+        #apellido {
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background-color: #31343e;
+            color: lightgray;
+            border: none;
+        }
+
+        #usuario {
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background-color: #31343e;
+            color: lightgray;
+            border: none;
+        }
+
+        #password {
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background-color: #31343e;
+            color: lightgray;
+            border: none;
+        }
+
+        #submit {
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+            color: #000;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            color: white;
+            background-color: #0072d2;
+        }
+
+        #validarNombre {
+            color: red;
+            margin: 0px;
+            padding-top: 2px;
+            padding-bottom: 12px;
+            display: none;
+        }
+        #validarApellido {
+            color: red;
+            margin: 0px;
+            padding-top: 2px;
+            padding-bottom: 12px;
+            display: none;
+        }
+        #validarUsuario {
+            color: red;
+            margin: 0px;
+            padding-top: 2px;
+            padding-bottom: 12px;
+            display: none;
+        }
+        #validarPassword {
+            color: red;
+            margin: 0px;
+            padding-top: 2px;
+            padding-bottom: 12px;
+            display: none;
+        }
+    }
+}
+
+#footer {
+    background-color: #090b13;
+
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        a {
+            padding-left: 190px;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+
+    .list {
+        font-size: 10px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+
+        a {
+            color: white;
+            text-decoration: none;
+            padding-right: 15px;
+        }
+    }
+
+    .rights {
+        padding-left: 140px;
+        padding-bottom: 20px;
+        font-size: 8px;
+        color: white;
+    }
+}
+
+//tablet
+@media screen and (min-width: 768px) {
+    .cuenta {
+        .crear {
+            .logo {
+                margin-left: 200px;
+            }
+
+            form {
+                margin-left: 240px;
+                width: auto;
+
+                .form_text {
+                    #nombre {
+                        height: 40px;
+                    }
+
+                    #apellido {
+                        height: 40px;
+                    }
+
+                    #usuario {
+                        height: 40px;
+                    }
+
+                    #password {
+                        height: 40px;
+                    }
+
+                    #submit {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 210px;
+    }
+
+    .list {
+        margin-left: 170px;
+    }
+
+    .rights {
+        margin-left: 200px;
+    }
+}
+/*desktop*/
+@media screen and (min-width: 992px) {
+    .cuenta {
+        .crear {
+            .logo {
+                margin-left: 570px;
+            }
+
+            form {
+                margin-left: 570px;
+                width: auto;
+
+                .form_text {
+                    #nombre {
+                        height: 40px;
+                    }
+
+                    #apellido {
+                        height: 40px;
+                    }
+
+                    #usuario {
+                        height: 40px;
+                    }
+
+                    #password {
+                        height: 40px;
+                    }
+
+                    #submit {
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .logo_footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 590px;
+    }
+
+    .list {
+        margin-left: 540px;
+    }
+
+    .rights {
+        margin-left: 570px;
+    }
+}

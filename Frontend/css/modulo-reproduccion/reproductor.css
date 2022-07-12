@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: #1a1d29;
+  font-family: "Avenir LT Pro", sans-serif;
+}
+
+#reproductor {
+  padding: 40px;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+#reproductor iframe {
+  width: 100%;
+  height: 100%;
+}
+#reproductor .detalle .descrip, #reproductor .detalle .descripcion {
+  color: white;
+}
+
+#footer {
+  background-color: #090b13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#footer div {
+  padding: 20px;
+  color: white;
+}
+#footer div a {
+  color: lightblue;
+  text-decoration: none;
+}
+#footer div:last-child {
+  margin-top: -20px;
+}
+
+/*# sourceMappingURL=reproductor.css.map */

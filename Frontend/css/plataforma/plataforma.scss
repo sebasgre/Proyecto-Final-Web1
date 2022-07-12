@@ -1,0 +1,11 @@
+@use 'header';
+@use 'series';
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Avenir LT Pro', sans-serif;  
+    background: radial-gradient(#2c2f42, #161824);
+    height: 100vh;
+  }
